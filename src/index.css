@@ -1,7 +1,7 @@
 body {
   font-family: "Segoe UI", Arial, sans-serif;
   text-align: center;
-  background-color: burlywood;
+  background-color: rgb(167, 242, 255);
   overflow-y: hidden;
   padding: 0;
   margin: 0;
@@ -9,7 +9,7 @@ body {
 
 header {
   margin: 15px 0;
-  color: #b0adad;
+  color: #440296;
   font-size: large;
 }
 
@@ -36,7 +36,7 @@ header {
 
 .digit:nth-child(4n + 5),
 .digit:nth-child(20) {
-  background-color: #d68f75;
+  background-color: #c9f594;
 }
 
 .digit:nth-child(4n + 5):hover,
@@ -46,12 +46,12 @@ header {
 
 .digit:nth-child(4n + 5):active,
 .digit:nth-child(20):active {
-  background-color: #793a23;
+  background-color: #014922;
 }
 
 .digit:nth-child(1) {
   grid-column-end: span 4;
-  background-color: #444;
+  background-color: #0b0b0b;
   color: white;
   text-align: right;
   font-size: larger;
@@ -69,10 +69,10 @@ header {
 }
 
 .digit:nth-child(1):hover {
-  background-color: #444;
+  background-color: #a189f9;
 }
 .digit:active {
-  background-color: #858383;
+  background-color: #27ff93;
   transition: all 100ms ease-in-out;
 }
 
@@ -87,3 +87,79 @@ header {
     display: none;
   }
 }
+
+
+body{margin-top:20px;
+  background:#eee;
+  }	
+  #page-wrapper {
+      padding: 25px 50px;
+  }   
+                   
+    
+  
+  * {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  * {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+   .navbar {
+  
+    border-bottom: 20px solid #118ab2;
+  } 
+  
+  
+  .navbar a:hover {
+  
+    text-shadow: 2px 2px 3px white;
+    font: 1rem italic;
+  }
+  
+  .body {
+  
+    background-color: linear-gradient(from top right red rgb(122, 8, 29) );
+  }
+  
+  #author img {
+  
+    margin-top: -40px;
+    height: 150px;
+    width: 150px;
+  }
+  
+  #author .fab {
+  
+    color: white;
+  }
+  
+  .google-map {
+    position: relative;
+    height: 50;
+    overflow: hidden;
+    padding-bottom: 50%; /* You can adjust this percentage to control the map's height */
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  
+  .google-map iframe {
+    position: absolute;
+    top: 20px;
+    left: 210px;
+    width: 72%;
+    height: 80%;
+  }
+  .navbar {
+  
+    border-bottom: 5px solid #4dc9f2;
+  }
+  
+  

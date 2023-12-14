@@ -55,7 +55,7 @@ class Calculator extends React.Component {
      return (
        <>
          <header>
-           <h1>R3ACT Calculator</h1>
+           <h1>Calculator: Do Your Operations!!</h1>
          </header>
          <form className="calc-container">
            <input className="digit" type="text" key={uuidv4()} value={(this.showTotal()) + (operation || '') + (next || '')} disabled />
